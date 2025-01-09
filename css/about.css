@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+   
+    
+}
+.container-parent{
+    background-color: black;
+    color: white;
+   
+    padding: 50px;
+    display: flex;
+    
+}
+.image{
+    width: 100%;
+}
+.image img{
+    width: 70%;
+    border-radius: 12px;
+}
+.about{
+    line-height: 2.1rem;
+}
+.about a{
+    margin-left: 800px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+.about a:hover{
+    background-color: red;
+    transition: 0.3s ease-in-out;
+    padding: 40px;
+}
+
+.child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 2.5rem;
+}
+.name-child{
+    display: flex;
+    flex-direction: column;
+}

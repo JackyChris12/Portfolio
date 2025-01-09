@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(28, 31, 28);
+}
+.container{
+    background-color: black;
+    color: white;
+    padding: 100px;
+    width: 40%;
+    margin: 20px;
+    align-items: center;
+    position: relative;
+    left: 250px;
+    line-height: 2.5rem;
+}
+.header ul{
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-between;
+    
+}
+.name{
+    gap: 10px;
+}
+.name span{
+    color: aqua;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+.header a:hover{
+    color: aqua;
+    transition: ease-in-out0.3s;
+
+}
+ul{
+   
+}
+li{
+    list-style: none;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    
+}
+.hello{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hello h4{
+    color: aqua;
+    font-size: 20px;
+}
+.hello p{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.image{
+    width: 100%;
+}
+.image img{
+    width: 90%;
+    border-radius: 100%;
+    transition: transform ease-in-out0.3s;
+}
+.image img:hover{
+    transform: scale(1.2);
+}
+.hello-child a{
+    text-decoration: none;
+    background-color: aqua;
+    border: 1px solid aqua;
+    width: 20%;
+    padding: 10px;
+    border-radius: 30px;
+    transition: transform ease-in-out 0.3s;
+}
+.hello-child a:hover{
+    background-color: black;
+    transition: ease-in-out 0.3s;
+}
